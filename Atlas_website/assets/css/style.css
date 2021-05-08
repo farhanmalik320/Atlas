@@ -1,0 +1,219 @@
+body {
+    background-image: linear-gradient(to right, #1b1d45, #0d1129);
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-banner-row {
+    background-image: url("./../image/Mainbg.svg");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-header-navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+a,
+a:hover {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 15.9231px !important;
+    line-height: 19px !important;
+    color: #ffffff !important;
+    text-decoration: unset !important;
+    padding: 15px 20px !important;
+}
+a.active {
+    border-bottom: 2px solid #BA06FB;
+}
+.contact-link {
+    padding-right: 30px !important;
+}
+
+/* banner section style */
+.site-banner {
+    min-height: 90vh;
+    align-items: center;
+    /* display: flex; */
+}
+.banner-header {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 54.3581px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.banner-sub-heading {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.295px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.banner-right-img {
+    width: 80%;
+}
+
+/* second-secion row */
+.section-padding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.second-row {
+    background: linear-gradient(279.22deg, #190022 25.16%, #1d2957 110.22%);
+}
+.heading {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.295px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.footer-link,
+.footer-link:hover {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.line-image {
+    width: 100%;
+}
+.copy-right-row {
+    font-size: 10.6154px;
+    line-height: 13px;
+    align-items: center;
+    color: #ffffff;
+    opacity: 0.3;
+}
+/* margin classes */
+.margin-left-auto {
+    margin-left: auto;
+}
+.margin-right15 {
+    margin-right: 15px;
+}
+
+.partners-section {
+    background-image: linear-gradient(to right, #181336, #16071c);
+}
+/* font classes */
+
+.font-size-15-9 {
+    font-size: 15.9231px;
+}
+.font-weight100 {
+    font-weight: 100;
+}
+.font-weight200 {
+    font-weight: 200;
+}
+.font-weight300 {
+    font-weight: 300;
+}
+.font-weight400 {
+    font-weight: 400;
+}
+.font-weight500 {
+    font-weight: 500;
+}
+
+/* button style */
+.btn-gradient-round {
+    color: #fff;
+    border-radius: 13.2692px;
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    letter-spacing: 1px;
+    padding: 2px;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to right, #ac32d8, #23359f, #46effa);
+}
+.btn-gradient-wrapper span {
+    box-shadow: -4px -2px 16px rgba(195, 200, 205, 0.04), 4px 4px 16px rgba(0, 0, 0, 0.6) !important;
+    border-radius: 10.2692px !important;
+    border: none !important;
+}
+.btn-gradient-round span {
+    align-items: center;
+    border-radius: 13.2692px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 29px;
+    padding-left: 30px;
+}
+.btn-bg-gradient {
+    background: linear-gradient(281.69deg, #ac32d8 5.12%, #1d2957 95.61%);
+}
+.btn-bg-dark-blue {
+    background-color: #1d2957;
+}
+button:focus {outline:0 !important;}
+
+/* button style */
+
+@media screen and (max-width: 1140px) {
+    .site-banner {
+        min-height: unset !important;
+        padding: 14% 0 !important;
+    }
+    .text-section {
+        padding: 50px 10px !important;
+    }
+    .Imagediv {
+        text-align: center !important;
+        padding: 50px 10px !important;
+    }
+    .secondImage,
+    .thirdImage,
+    .fourImage,
+    .banner-right-img {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    a.nav-link {
+        width: fit-content;
+    /* text-align: center; */
+    margin: auto;
+    font-size: 32px !important;
+    padding-bottom: 28px !important;
+    margin-bottom: 25px;
+    }
+    .nav-item button{
+        width: fit-content !important;
+        margin: auto;
+    }
+    .nav-item button span {
+        font-size: 32px !important;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .site-banner {
+        min-height: unset !important;
+        padding: 14% 0;
+    }
+}
